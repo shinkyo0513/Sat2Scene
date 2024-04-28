@@ -16,6 +16,7 @@ To edit the websites contents edit the `index.html` file. It contains different 
 - Video Carousel
 - PDF Poster
 - Bibtex citation
+- Hello.
 
 ## Tips:
 - The `index.html` file contains comments instructing you what to replace, you should follow these comments.
