@@ -195,24 +195,26 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-
-        <!-- Your image here -->
+<!-- Pipeline -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <center>
         <img src="static/images/pipeline.jpg" alt="MY ALT TEXT"/>
+        </center>
         <h2 class="subtitle has-text-centered">
           Pipeline overview of our method. Three steps compose the full pipeline to generate the scene representation and render street views based on satellite-inferred geometries. The generation step initiates colors for the foreground point cloud by using a 3D diffusion model with sparse convolutions, as well as synthesizing the background panorama with a 2D diffusion model. The scene features tightly anchored with the point cloud are extracted at the feature extraction step. The final rendering step produces images from arbitrary views through neural rendering.
         </h2>
-      </div>
+    </div>
+  </div>
+</section>  
+<!-- Pipeline -->     
 
-      <div class="item">
-        <!-- HoliCity baseline comparison videos here -->
-        <center>
+<!-- Baseline visualization comparison -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <center>
         <video poster="" id="holicity_GT" autoplay controls muted loop height="80%">
           <source src="static/videos/GT_6res.mp4"
           type="video/mp4">
@@ -239,30 +241,10 @@
         <h2 class="subtitle has-text-centered">
           Street-view videos generated on the HoliCity dataset (with baseline comparison). Our method produces higher-quality video with better temporal consistency compared with the baselines.
         </h2>
-      </div>
-
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-        Street-view videos generated on the OmniCity dataset (with baseline comparison). Ours shows better generalization ability, whereas MVDiffusion generates bird-view videos from ground views.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Denoising procedure visualization with three different diversities. We align the denoising processes of background and foreground for better visual effects. For each scene, we also provide its satellite top view in the upper-left corner with current locations.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
-
-
-
+<!-- Baseline visualization comparison -->
 
 <!-- Youtube video -->
 <section class="hero is-small is-light">
